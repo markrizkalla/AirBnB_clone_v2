@@ -1,10 +1,10 @@
 #!/usr/bin/python3
 """Defines the State class."""
-
+import models
 from os import getenv
-from base_model import BaseModel
-from base_model import Base
-from city import City
+from models.base_model import Base
+from models.base_model import BaseModel
+from models.city import City
 from sqlalchemy import Column
 from sqlalchemy import String
 from sqlalchemy.orm import relationship
